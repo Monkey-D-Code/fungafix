@@ -1,0 +1,241 @@
+@media only screen and (max-width: 600px) {
+  body {
+    width : 100%;
+    overflow: hidden;
+  }
+  /* information bar */
+  .information{
+    width : 100%;
+  }
+  .information span{
+        margin: 0.3em;
+        font-size: 0.7em;
+    }
+
+    /* navbar */
+    .navbar{
+        display: grid;
+        grid-template-rows: 10fr 1fr; 
+        grid-template-columns: 2fr 6fr 1fr;
+    }
+    .navbar-items{
+        
+        width : 60%;
+        height : 8em;
+        display: none;
+        text-align: center;
+        margin : 0;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .navbar a{
+        text-align: center;
+        margin-top:1em;
+    }
+    .menu-toggle{
+        display: block;
+    }
+    .menu-toggle span{
+        color :#708C38;
+    }
+
+    /* hero area */
+    .hero-area{
+        width : 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .left{
+        
+        
+        display: none;
+    }
+    .right{
+        background-image:url('../images/home-bg-right.jpg');
+        background-size: cover;
+        height : 45em;
+        padding : 0 1em 0 1em;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr 7fr;
+    }
+    .product-image{
+        height: 20em;
+        display : block;
+        margin : auto;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        margin-top : 1em;
+    }
+    .product-info{
+        background-color : rgba(41, 47, 54, 0.68);
+        height : 17em;
+        width : 80%;
+        border-radius : 0.5em;
+        padding : 0 1em 0 1em;
+        color : #CCFF66;
+        display: block;
+        margin: auto;
+    }
+    .product-name{
+        
+        color : #708C38;
+        font-size: 1.3em;
+    }
+
+    /* about */
+    .about{
+        background-image: url('../images/parallax.jpg');
+        background-size: cover;
+        height : 70em;
+        width : 100%;
+        
+
+    }
+    .container{
+        height : 58em;
+        width : 85%;
+        background-color: rgba(41, 47, 54, 0.68);
+        margin:auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 8fr;
+        border-radius: 1em;
+        
+    }
+    .product-img-big{
+        height : 23em;
+        
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        display: block; 
+        margin: auto;
+        margin-top: 1em;
+        
+    }
+    .product-details{
+        color : #CCFF66;
+        
+        display: block;
+        margin: auto;
+        width : 90%;
+        text-align: center;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        
+    }
+    .product-details h1{
+        font-size: 1.2em;
+    }
+
+    /* how to use */
+    .how-to-use{
+        background-image: url('../images/mt-1689-content-bg04.jpg');
+        background-size: cover;
+        width : 100%;
+        height  : 105em;
+        color : #CCFF66;
+    }
+    .use-right{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .use-text{
+        width : 70%;
+        display: block;
+        margin : auto;
+    }
+    .use-left{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    .use-left .instructions{
+        width : 100%;
+        text-align: center;
+    }
+
+    .use-left .use-text{
+        display: inline-block;
+        
+    }
+
+    /* benifits */
+    .benifits{
+        background-image: url('../images/slider-1-image-min.jpg');
+        background-size: cover;
+        
+        width : 100%;
+        height : 90em;
+        display: grid;
+        grid-template-rows: 1fr 10fr;
+        grid-template-columns: 1fr;
+    }
+    .benifits h1{
+        text-align: center;
+        color : #708C38;
+        padding : 1em;
+        font-size: 3em;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        
+    }
+    .buy-section{
+        display: block;
+       margin:auto;
+    }
+    .benifit-list{
+        width : 90%;
+       display: block;
+       margin: auto;
+    }
+    .single-benifit{
+        background-color: #708C38;
+        width : 85%;
+        padding : 1.5em;
+        
+        border-radius: 0.5em;
+        color : white;
+    }
+
+    /* order now */
+    .content{
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+    .contact-form{
+        
+        margin-bottom: 4em;
+    }
+    /* footer */
+    footer{
+        width : 100%;
+        height : 30em;
+        background-color: #CCFF66;
+    }
+    .footer-nav a{
+        text-decoration: none;
+        color : #708C38;
+        
+        text-align: center;
+        font-size: 0.7em;
+        
+    }
+    .copyright{
+        display: block;
+        width : 60%;
+        margin : auto;
+        font-size: 0.7em;
+    }
+
+}
