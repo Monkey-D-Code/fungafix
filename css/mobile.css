@@ -40,6 +40,7 @@
         display: grid;
         grid-template-columns: 1fr;
         text-align: center;
+        margin-top: 4em;    
     }
     .left{
         
@@ -59,8 +60,8 @@
         height: 20em;
         display : block;
         margin : auto;
-        grid-row-start: 1;
-        grid-row-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
         margin-top : 1em;
     }
     .product-info{
