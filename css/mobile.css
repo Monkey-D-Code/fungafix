@@ -258,7 +258,8 @@
     }
     .nav-links{
         
-        position: fixed;
+        position: sticky;
+        top: 0;
         flex-direction: column;
         height : 50vh;
         background-color: white;

@@ -408,6 +408,7 @@ header{
     height:10vh;
     margin:0;
     background-color:white !important;
+    z-index:999;
 }
 .nav-links{
     display: flex;
