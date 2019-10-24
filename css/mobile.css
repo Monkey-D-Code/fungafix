@@ -14,31 +14,24 @@
 
     /* navbar */
     .navbar{
-        display: grid;
-        grid-template-rows: 10fr 1fr; 
-        grid-template-columns: 2fr 6fr 1fr;
+        padding : 0.4em;
     }
     .navbar-items{
         
-        width : 60%;
-        height : 8em;
-        display: none;
-        text-align: center;
-        margin : 0;
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 2;
+        display: block;
     }
     .navbar a{
         text-align: center;
-        margin-top:1em;
+        margin-top:1em !important;
+        padding:1em;
     }
     .menu-toggle{
         display: block;
+        
     }
     .menu-toggle span{
         color :#708C38;
+        float:right;
     }
 
     /* hero area */
@@ -238,4 +231,39 @@
         font-size: 0.7em;
     }
 
+}
+
+@media screen and (max-width:768px){
+    header{
+        position: fixed;
+        width: 100vw;
+    }
+    .line{
+        width:25px;
+        height: 3px;
+        background-color: #708C38;
+        margin-top:5px;
+        
+    }
+    .ham{
+        padding-top: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+        
+    }
+    .bars{
+        display: inline-block;
+        margin-left: 18em;
+        
+    }
+    .nav-links{
+        
+        position: fixed;
+        flex-direction: column;
+        height : 50vh;
+        background-color: white;
+        width: 90vw;
+        
+        
+    }
 }

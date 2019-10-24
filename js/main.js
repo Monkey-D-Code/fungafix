@@ -1,3 +1,3 @@
-$(document).on('click','.menu-toggle',()=>{
-    $('.navbar-items').toggle('slow');
+$(document).on('click','.bars',()=>{
+    $('.nav-links').toggle('slow');
 })
